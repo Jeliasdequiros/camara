@@ -1,0 +1,31 @@
+/* ******************************** */
+/* ******************************** */
+/* BOTONES */
+/* ******************************** */
+/* ******************************** */
+/* ******************************** */
+
+// Placeholder en Sass
+%btn{
+    display: inline-block;
+    text-decoration: none;
+    background: $color-naranja;
+    color: #fff;
+    padding: convertir(10);
+    
+}
+
+// botones
+
+.header__boton{
+    @extend %btn;
+}
+
+.sectionSuperior__boton{
+    @extend %btn;
+}
+
+.formulario__boton{
+    @extend %btn;
+    border-radius: convertir(25) ;
+}

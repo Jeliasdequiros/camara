@@ -1,0 +1,60 @@
+
+.footer{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+
+
+.informacion {
+    &__titulo01 {
+    }
+    &__titulo02 {
+    }
+    &__titulo03 {
+    }
+    &__titulo04 {
+    }
+}
+
+
+.footer {
+    &__formulario {
+    }
+    &__informacion {
+    }
+}
+.formulario {
+    &__email {
+    }
+}
+
+.titulo01 {
+    &__historia {
+    }
+    &__quienessomos {
+    }
+}
+.titulo02 {
+    &__blog {
+    }
+    &__eventos {
+    }
+    &__foros {
+    }
+}
+.titulo03 {
+    &__formulario {
+    }
+    &__telefono {
+    }
+}
+.titulo04 {
+    &__facebook {
+    }
+    &__instagram {
+    }
+    &__twitter {
+    }
+}
+

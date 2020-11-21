@@ -1,0 +1,19 @@
+
+
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/main.css")
+        title Nueva Cámara
+    body
+        //- MAIN SEO - Contenido importante
+        div#container
+            header.header: include header.pug
+            main.main: include main.pug
+                section.zona_superior: include sectionSuperior
+                section.zona_centro: include sectionCentro
+                section.zona_inferior: include sectionInferior
+            footer.footer: include footer.pug
+

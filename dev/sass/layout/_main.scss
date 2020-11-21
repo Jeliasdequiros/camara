@@ -1,0 +1,47 @@
+.main{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    @extend %grid_1x3;
+
+    .sectionSuperior {
+        grid-column:1/1;
+        grid-row: 1/2;
+        background-color:red;
+        &__boton {
+        }
+        &__parrafo {
+        }
+        &__producto01 {
+        }
+        &__titulo {
+        }
+    }
+}
+
+.sectionCentro {
+    grid-column:1/1;
+    grid-row: 2/3;
+
+    &__parrafo1 {
+    }
+    &__parrafo2 {
+    }
+    &__parrafo3 {
+    }
+    &__parrafo4 {
+    }
+    &__titulo1 {
+    }
+    &__titulo2 {
+    }
+    &__titulo3 {
+    }
+    &__titulo4 {
+    }
+}
+
+
+.sectioncentro {
+    &__producto02 {
+    }
+}

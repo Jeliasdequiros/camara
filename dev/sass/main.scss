@@ -1,0 +1,26 @@
+// ABSTRACT
+@import 'abstract/variables';
+@import 'abstract/functions';
+@import 'abstract/mixins';
+
+// BASE
+@import 'base/reset';
+@import 'base/tipografia';
+
+// COMPONENTS
+@import 'components/botones';
+
+// LAYOUT
+@import 'layout/container';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/sectionSuperior';
+@import 'layout/sectionCentro';
+@import 'layout/sectionInferior';
+@import 'layout/footer';
+
+
+
+// LAYOUT
+@import 'pages/index';

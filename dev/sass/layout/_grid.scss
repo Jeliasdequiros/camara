@@ -1,0 +1,32 @@
+/* ******************************** */
+/* ******************************** */
+/* GRID */
+/* ******************************** */
+/* ******************************** */
+/* ******************************** */
+
+
+
+
+// Grid del Container
+%grid_3x3{
+    display: grid;
+    grid-template: {
+        columns: 10px 1fr 10px;
+        rows: 80px auto 150px;
+    };
+}
+
+%grid_5x1{
+    display: grid;
+    grid-template: {
+        columns: 15% 20% 30% 30% 5%;
+    };
+}
+
+%grid_1x3{
+    display: grid;
+    grid-template: {
+        rows: repeat(3, auto);
+    };
+}
