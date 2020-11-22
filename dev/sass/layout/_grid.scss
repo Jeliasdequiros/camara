@@ -13,20 +13,63 @@
     display: grid;
     grid-template: {
         columns: 10px 1fr 10px;
-        rows: 80px auto 150px;
+        rows: 80px auto 350px;
     };
 }
 
+
+//SUBGRIDS
+
+// Subgrid header
 %grid_5x1{
     display: grid;
     grid-template: {
-        columns: 15% 20% 30% 30% 5%;
+        columns: 15% 20% 30% 27% 8%;
     };
 }
 
+//Subgrid main
 %grid_1x3{
     display: grid;
     grid-template: {
         rows: repeat(3, auto);
     };
 }
+
+//Subgrid main.sectionSuperior
+%grid_3x5-1{
+    display: grid;
+    grid-template: {
+        columns: 7% 43% 50%;
+        rows: 10% 15% 25% 50px 40%;
+    };
+}
+
+//Subgrid main.sectionCentro
+%grid_3x7{
+    display: grid;
+    grid-template: {
+        columns: auto 45% auto;
+        rows: 1fr 30px 100px 100px 30px 100px 1fr;
+    };
+}
+
+//Subgrid main.sectionInferior
+%grid_2x3{
+    display: grid;
+    grid-template: {
+        columns: 30% 60% 10% ;
+        rows: 30% 50% 20%;
+    }
+};
+
+//Subgrid footer
+%grid_4x3{
+    display: grid;
+    grid-template:{
+        columns: 60% 10% 25% 5%;
+        rows: 20% 40% auto;
+    }
+
+}
+

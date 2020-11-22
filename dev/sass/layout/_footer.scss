@@ -2,59 +2,62 @@
 .footer{
     grid-column: 2/3;
     grid-row: 3/4;
+    background-color:$color-gris;
+    @extend %grid_4x3;
+
+    
+}
+
+section.footer__informacion{
+    grid-row: 2/3;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+section.footer__formulario{
+    grid-column:3/4;
+    grid-row:2/3;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+// .informacion {
+    
+//     &__titulo01 {
+//         font-weight: bold;
+//     }
+//     &__titulo02 {
+//         font-weight: bold;
+//     }
+//     &__titulo03 {
+//     }
+//     &__titulo04 {
+//     }
+// }
+
+*li{
+    list-style:none;
+}
+
+
+.formulario__boton{
+    position: relative;
+    left: -10px;
+}
+
+.copyright{
+    grid-row:3/4;
+    justify-self: center;
+    align-self: center;
+    position: relative;
+    right:-375px;
 }
 
 
 
-.informacion {
-    &__titulo01 {
-    }
-    &__titulo02 {
-    }
-    &__titulo03 {
-    }
-    &__titulo04 {
-    }
-}
-
-
-.footer {
-    &__formulario {
-    }
-    &__informacion {
-    }
-}
-.formulario {
-    &__email {
-    }
-}
-
-.titulo01 {
-    &__historia {
-    }
-    &__quienessomos {
-    }
-}
-.titulo02 {
-    &__blog {
-    }
-    &__eventos {
-    }
-    &__foros {
-    }
-}
-.titulo03 {
-    &__formulario {
-    }
-    &__telefono {
-    }
-}
-.titulo04 {
-    &__facebook {
-    }
-    &__instagram {
-    }
-    &__twitter {
-    }
-}
 
